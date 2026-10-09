@@ -431,6 +431,8 @@ int* concat (int arr1[], int arr2[]);
 
 Тестирование
 <img width="324" height="90" alt="image" src="https://github.com/user-attachments/assets/3e2ead32-a949-416f-a53e-73aaafc0a67c" />
+<img width="324" height="90" alt="image" src="https://github.com/user-attachments/assets/93346dc6-07b3-47dc-a018-156851541e41" />
+
 
 	
 	
