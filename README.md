@@ -28,6 +28,11 @@ int y = 123 / 10; // y будет иметь значение 12
 Алгоритм решения
 Пользователь вводит число x (в нём должно быть минимум две цифры). Последнюю цифру получаем так: x % 10. Предпоследнюю так: (x % 100) / 10. Складываем две цифры и выводим результат.
 Тестирование
+<img width="275" height="131" alt="image" src="https://github.com/user-attachments/assets/ab5c4374-60a5-4218-871f-8bc3ee3beae8" />
+
+<img width="246" height="131" alt="image" src="https://github.com/user-attachments/assets/454225b4-0666-42d9-ac6e-1e04dc808c76" />
+
+<img width="278" height="167" alt="image" src="https://github.com/user-attachments/assets/a2c26054-57eb-4eec-b763-31dda7660224" />
 
 	
 Задача 4. Есть ли позитив
@@ -40,7 +45,10 @@ bool isPositive (int x);
 Алгоритм решения
 Пользователь вводит число x. Если x больше нуля, функция возвращает true, иначе false. Результат выводится на экран.
 Тестирование
-	
+<img width="302" height="144" alt="image" src="https://github.com/user-attachments/assets/5d87520f-312b-4024-8622-bd449efe7ddf" />
+<img width="289" height="172" alt="image" src="https://github.com/user-attachments/assets/0cbc6968-b1df-40c9-a417-3edfe331dd10" />
+<img width="295" height="172" alt="image" src="https://github.com/user-attachments/assets/072ba321-d55c-4ec8-b043-283492b8aeae" />
+
 	
 
 Задача 6. Большая буква
@@ -53,6 +61,9 @@ bool isUpperCase (char x);
 Алгоритм решения
 Пользователь вводит символ x. Если символ находится между ‘A’ и ‘Z’, функция возвращает true, иначе false. Если введена цифра, программа пишет, что ввод неверный.
 Тестирование
+<img width="297" height="192" alt="image" src="https://github.com/user-attachments/assets/305e7fef-6f2b-4e5f-8635-4faed632b1fb" />
+<img width="322" height="179" alt="image" src="https://github.com/user-attachments/assets/b14a0ed7-3301-4e01-99ef-5b2963407fef" />
+<img width="308" height="211" alt="image" src="https://github.com/user-attachments/assets/bbad7615-d563-4230-952f-4aece8f05ab3" />
 	
 	
 Задача 8. Делитель
@@ -65,6 +76,9 @@ bool isDivisor (int a, int b);
 Алгоритм решения
 Пользователь вводит два числа a и b (ни одно не должно быть нулём). Если a делится на b без остатка или b делится на a без остатка, функция возвращает true, иначе false. Остаток считаем через %.
 Тестирование
+<img width="273" height="254" alt="image" src="https://github.com/user-attachments/assets/d6a23219-343c-4581-8634-872570fb942c" />
+<img width="271" height="257" alt="image" src="https://github.com/user-attachments/assets/8277cbc8-e975-4ca9-bc03-711fb3bde069" />
+<img width="245" height="170" alt="image" src="https://github.com/user-attachments/assets/669aa2e5-7824-4554-a12e-59c469e678c4" />
 
 	
 
@@ -83,7 +97,10 @@ int lastNumSum (int a, int b);
 Алгоритм решения
 Пользователь вводит первое число и запоминает его в result. Затем он по очереди вводит ещё четыре числа. Каждый раз функция берёт последнюю цифру у result и у нового числа (через % 10), складывает их, и сумма снова записывается в result. После последнего числа выводится итог.
 Тестирование
-                        
+   <img width="190" height="141" alt="image" src="https://github.com/user-attachments/assets/76c144e4-444f-45c6-bf10-72a90dd5ab39" />
+<img width="183" height="327" alt="image" src="https://github.com/user-attachments/assets/8d3964ff-4f26-429c-be8f-40f035b63d0c" />
+<img width="174" height="331" alt="image" src="https://github.com/user-attachments/assets/4a10ae76-aabc-4f7a-8e78-7b2524e330c8" />
+                      
 	
 	
 Задание 2
@@ -98,7 +115,11 @@ double safeDiv (int x, int y);
 Алгоритм решения
 Пользователь вводит x и y. Если y равно 0, функция возвращает 0, чтобы не делить на ноль. Иначе x превращается в double и делится на y. Результат выводится на экран.
 Тестирование
-    
+   <img width="208" height="167" alt="image" src="https://github.com/user-attachments/assets/b2c5b050-c3a6-40e2-a946-9606b84ae97a" />
+<img width="207" height="172" alt="image" src="https://github.com/user-attachments/assets/efcfbccf-b10b-4e45-94e3-2588ce6f7ac8" />
+<img width="203" height="191" alt="image" src="https://github.com/user-attachments/assets/52caaeb5-9f36-470b-90f2-105e26ec7c28" />
+<img width="194" height="194" alt="image" src="https://github.com/user-attachments/assets/1b1dac7d-a202-4c8d-98d7-705c5a7aa720" />
+ 
 
 	
 
@@ -115,6 +136,11 @@ String makeDecision (int x, int y);
 Алгоритм решения
 Пользователь вводит x и y. Функция сравнивает числа и возвращает строку: если x больше, то “x>y”, если меньше, то “x<y”, если равны, то “x==y”. Числа в строку превращаем через std::to_string.
 Тестирование
+<img width="187" height="180" alt="image" src="https://github.com/user-attachments/assets/65bf0e88-1849-4f80-ad1c-38fb1f734e62" />
+<img width="187" height="180" alt="image" src="https://github.com/user-attachments/assets/b35cec71-f5b6-49cd-ac68-7805b284a2fb" />
+<img width="187" height="177" alt="image" src="https://github.com/user-attachments/assets/3218c627-65ed-4523-b16c-f7a1607bc179" />
+<img width="186" height="170" alt="image" src="https://github.com/user-attachments/assets/a750e762-c1ce-451b-af28-6d449413591c" />
+
          
 Задача 6. Тройная сумма
 Текст задачи
@@ -127,6 +153,9 @@ bool sum3 (int x, int y, int z);
 Пользователь вводит три числа x, y, z. Функция проверяет три случая: x равно y+z, y равно z+x, z равно x+y. Если выполняется хотя бы один, возвращается true, иначе false.
 Тестирование
 	
+<img width="197" height="206" alt="image" src="https://github.com/user-attachments/assets/7750d5a3-67c0-45a2-8a69-96efeb2ddeea" />
+<img width="183" height="225" alt="image" src="https://github.com/user-attachments/assets/bdada451-f963-49b3-ba5f-6208eaef0614" />
+<img width="177" height="216" alt="image" src="https://github.com/user-attachments/assets/1e35515b-150f-4e87-a938-d0d0872c399a" />
 
 
 
@@ -146,23 +175,10 @@ String age (int x);
 Тестирование
 Примечание: В английском языке слова “год, года, лет” переводятся одним словом year, поэтому в программе пришлось обозначать: год – god, года – goda, лет – let, также русский язык в программе при выводе пользователю выводит случайные символы, которые невозможно прочитать.
           
-	
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	<img width="228" height="163" alt="image" src="https://github.com/user-attachments/assets/9bd242a3-5394-48c6-a647-aa8185daa660" />
+<img width="245" height="141" alt="image" src="https://github.com/user-attachments/assets/74b99bc6-80fa-4837-bef0-9dfdfafc5c8d" />
+<img width="250" height="145" alt="image" src="https://github.com/user-attachments/assets/62a88eb9-ef17-4b0b-bfc5-d4b76560afdf" />
+<img width="237" height="157" alt="image" src="https://github.com/user-attachments/assets/705b7cdc-3b2c-48d4-8a72-c51adf0a6519" />
 
 
 	
@@ -177,6 +193,9 @@ void printDays (int x);
 Пользователь вводит число x. В switch для каждого дня недели от 1 до 7 написан свой case. Break стоит только в конце, после воскресенья. Поэтому программа выводит выбранный день и все следующие за ним до воскресенья. Если число не от 1 до 7, срабатывает default и выводится сообщение, что это не день недели.
 Тестирование
  	
+<img width="156" height="107" alt="image" src="https://github.com/user-attachments/assets/0871aca2-13fe-4ab5-8f24-cd0d79bbcdf3" />
+<img width="224" height="142" alt="image" src="https://github.com/user-attachments/assets/2fd99de6-12f2-4b90-ac5e-f7373c720f43" />
+<img width="226" height="251" alt="image" src="https://github.com/user-attachments/assets/af532acf-5cc0-496e-a59c-e54767546231" />
 
 	
 Задание 3
@@ -189,7 +208,10 @@ String reverseListNums (int x);
 Алгоритм решения
 Пользователь вводит число x (не меньше 0). Создаём пустую строку result. Цикл идёт от x до 0 и на каждом шаге добавляет в строку текущее число и пробел. После цикла строка возвращается и выводится.
 Тестирование
-	
+	<img width="280" height="200" alt="image" src="https://github.com/user-attachments/assets/e05bc0c8-52b3-493a-8ac5-023d525da491" />
+<img width="249" height="168" alt="image" src="https://github.com/user-attachments/assets/d0a88cf0-84ff-411a-895a-57db03fc1372" />
+<img width="271" height="176" alt="image" src="https://github.com/user-attachments/assets/091fcee6-7ba6-4a6d-bf95-d9ab418e153a" />
+
 	
 Задача 4. Степень числа
 Текст задачи
@@ -201,7 +223,10 @@ int pow (int x, int y);
 Алгоритм решения
 Пользователь вводит x и y. Создаём result = 1. Цикл повторяется y раз, и на каждом шаге result умножается на x. После цикла result и есть x в степени y.
 Тестирование
-	
+	<img width="220" height="136" alt="image" src="https://github.com/user-attachments/assets/c868dd3c-18da-44e9-8801-1d5c80c82022" />
+<img width="197" height="173" alt="image" src="https://github.com/user-attachments/assets/b2f7a2fa-6fcf-4737-951e-626147f25c20" />
+<img width="258" height="219" alt="image" src="https://github.com/user-attachments/assets/d9f51d35-27be-465d-bcc7-9daff67ef14d" />
+
 
 	
 	
@@ -218,6 +243,10 @@ int y = 123 / 10; // y будет иметь значение 12
 Алгоритм решения
 Пользователь вводит число x. Если оно отрицательное, делаем его положительным. Запоминаем последнюю цифру (x % 10) и отбрасываем её (x / 10). Пока в числе остались цифры, берём следующую и сравниваем с запомненной. Если нашлась другая, возвращаем false. Если все цифры совпали, возвращаем true.
 Тестирование
+<img width="294" height="142" alt="image" src="https://github.com/user-attachments/assets/bdc5b3f0-c587-43b5-87cc-437cca8c4549" />
+<img width="292" height="141" alt="image" src="https://github.com/user-attachments/assets/564b3039-d085-479c-ac6b-5e4f16418ef6" />
+<img width="260" height="164" alt="image" src="https://github.com/user-attachments/assets/012bdc92-96b7-42ce-884b-d41ac1ccf630" />
+
 
 
 	
@@ -237,7 +266,10 @@ void leftTriangle (int x);
 Алгоритм решения
 Пользователь вводит число x. Внешний цикл идёт по строкам от 1 до x. Внутренний цикл в каждой строке печатает столько звёздочек, каков номер строки. После строки переходим на новую.
 Тестирование
-	
+<img width="261" height="193" alt="image" src="https://github.com/user-attachments/assets/305daf0e-587b-4e38-9ecd-d5d40182df33" />
+<img width="192" height="203" alt="image" src="https://github.com/user-attachments/assets/8572aaa9-bc6d-4de0-8dc1-12efde40a48f" />
+
+
 
 
 	
@@ -254,14 +286,10 @@ void guessGame ();
 Алгоритм решения
 Программа загадывает случайное число от 0 до 9 и ставит счётчик попыток в 0. В цикле пользователь вводит число, и счётчик увеличивается на 1. Если число совпало с загаданным, выводим “You win” и количество попыток, и цикл заканчивается. Если нет, выводим “You lose” и просим ввести число снова.
 
-
-
-
-
-
-
 Тестирование
-   
+<img width="307" height="308" alt="image" src="https://github.com/user-attachments/assets/ed957052-90b9-403d-8ef6-2cdd7185a37b" />
+<img width="270" height="281" alt="image" src="https://github.com/user-attachments/assets/3db266e0-16d0-420a-b80c-0e678478e17f" />
+
 	
 	
 Задание 4
@@ -275,20 +303,11 @@ int findLast (int arr[], int x);
 Пользователь вводит 7 чисел массива и число x. Создаём lastIndex = -1. Цикл проходит по всем элементам, и если элемент равен x, запоминаем его индекс в lastIndex. После цикла в lastIndex лежит индекс последнего совпадения, а если совпадений не было, остаётся -1.
 
 
-
-
-
-
-
-
-
-
-
-
-
 Тестирование
-	
 
+<img width="287" height="122" alt="image" src="https://github.com/user-attachments/assets/b004b0ae-6fde-4ab8-bd3d-d7fe501969e9" />
+<img width="319" height="132" alt="image" src="https://github.com/user-attachments/assets/df681c23-0639-4c8e-9cb4-3122f713ea18" />
+<img width="290" height="118" alt="image" src="https://github.com/user-attachments/assets/a86daa26-60f4-42d2-83fe-d445d8eddc90" />
 
 
 	
@@ -340,6 +359,9 @@ int* add (int arr[], int x, int pos);
 
 
 
+<img width="229" height="353" alt="image" src="https://github.com/user-attachments/assets/e24c2542-9a74-4178-a426-0754604f7298" />
+<img width="314" height="177" alt="image" src="https://github.com/user-attachments/assets/ee1d2a73-e612-4050-9e01-a0fb597a1b52" />
+<img width="293" height="173" alt="image" src="https://github.com/user-attachments/assets/a4a0a89e-2948-467f-9e48-e3d8b9dd822a" />
 
 
 
@@ -357,8 +379,10 @@ void reverse (int arr[]);
 Алгоритм решения
 Пользователь вводит 5 чисел. Функция проходит только по первой половине массива и меняет местами симметричные элементы: первый с последним, второй с предпоследним. Для обмена используется переменная temp. После этого массив выводим.
 Тестирование
-	
+	<img width="293" height="93" alt="image" src="https://github.com/user-attachments/assets/07ae093f-f63b-4f6c-b492-26d211a83532" />
 
+
+<img width="250" height="88" alt="image" src="https://github.com/user-attachments/assets/7cd6a659-fe04-4dae-8975-c6671fae77a2" />
 
 
 
@@ -371,6 +395,7 @@ int* concat (int arr1[], int arr2[]);
 Алгоритм решения
 Пользователь вводит два массива по 3 числа. Создаём новый массив на 6 элементов. Сначала копируем в него первый массив, потом второй, начиная с позиции 3. Новый массив выводим и освобождаем память.
 Тестирование
+<img width="324" height="90" alt="image" src="https://github.com/user-attachments/assets/3e2ead32-a949-416f-a53e-73aaafc0a67c" />
 
 	
 	
@@ -383,6 +408,8 @@ int* deleteNegative (int arr[]);
 Алгоритм решения
 Пользователь вводит 7 чисел. Сначала считаем, сколько в массиве неотрицательных чисел, и создаём новый массив такого размера. Затем проходим по исходному массиву, и каждое неотрицательное число записываем в новый массив через отдельный индекс j (после записи j увеличивается на 1). Новый массив выводим и освобождаем память.
 Тестирование
-      
+      <img width="214" height="94" alt="image" src="https://github.com/user-attachments/assets/69943c5b-34a1-4962-84ad-bf6141684b69" />
+<img width="260" height="91" alt="image" src="https://github.com/user-attachments/assets/d1ac46a2-8b1f-4cdb-88bc-6685b9804d01" />
+
 	
 	
