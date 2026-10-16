@@ -1,6 +1,7 @@
 #include <cstdlib>
 #include <ctime>
 #include <iostream>
+#include <limits>
 #include <string>
 
 namespace {
@@ -282,6 +283,7 @@ int main() {
   char symbol;
   std::cout << "\nEnter symbol x: ";
   std::cin >> symbol;
+  std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
   if (symbol >= '0' && symbol <= '9') {
     std::cout << "Invalid input\n";
   } else {
