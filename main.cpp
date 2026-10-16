@@ -7,8 +7,8 @@ namespace {
 
 // Task 1.2
 int sumLastNums(int x) {
-  int a = x % 10;
-  int b = (x % 100) / 10;
+  int a = std::abs(x % 10);
+  int b = std::abs((x % 100) / 10);
   return a + b;
 }
 
@@ -41,8 +41,8 @@ bool isDivisor(int a, int b) {
 
 // Task 1.10
 int lastNumSum(int a, int b) {
-  a = a % 10;
-  b = b % 10;
+  a = std::abs(a % 10);
+  b = std::abs(b % 10);
   return a + b;
 }
 
@@ -77,10 +77,10 @@ bool sum3(int x, int y, int z) {
 
 // Task 2.8
 std::string age(int x) {
-  if (x % 10 == 1 && x != 11) {
+  if (x % 10 == 1 && x % 100 != 11) {
     return std::to_string(x) + " god";
   } else if ((x % 10 == 2 || x % 10 == 3 || x % 10 == 4) &&
-             (x != 12 && x != 13 && x != 14)) {
+             (x % 100 < 12 || x % 100 > 14)) {
     return std::to_string(x) + " goda";
   } else {
     return std::to_string(x) + " let";
@@ -253,6 +253,8 @@ int* deleteNegative(int arr[]) {
 }  // namespace
 
 int main() {
+  std::cout << std::boolalpha;
+
   std::cout << "Task 1.2\n";
   int number;
   std::cout << "Enter number x: ";
@@ -261,7 +263,7 @@ int main() {
     std::cout << "Invalid input\n";
     return 0;
   }
-  if (number < 10) {
+  if (number > -10 && number < 10) {
     std::cout << "Invalid input\n";
     return 0;
   }
