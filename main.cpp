@@ -167,7 +167,7 @@ void leftTriangle(int x) {
 void guessGame() {
   int random_number = std::rand() % 10;
   int number_of_attempts = 0;
-  int user_number;
+  int user_number = 0;
   while (true) {
     std::cout << "Enter number from 0 to 9: ";
     std::cin >> user_number;
@@ -257,7 +257,7 @@ int main() {
   std::cout << std::boolalpha;
 
   std::cout << "Task 1.2\n";
-  int number;
+  int number = 0;
   std::cout << "Enter number x: ";
   std::cin >> number;
   if (std::cin.fail()) {
@@ -280,7 +280,7 @@ int main() {
   std::cout << isPositive(number);
 
   std::cout << "\nTask 1.6\n";
-  char symbol;
+  char symbol = '\0';
   std::cout << "\nEnter symbol x: ";
   std::cin >> symbol;
   std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
@@ -291,8 +291,8 @@ int main() {
   }
 
   std::cout << "\nTask 1.8\n";
-  int number_a;
-  int number_b;
+  int number_a = 0;
+  int number_b = 0;
   std::cout << "\nEnter number a: ";
   std::cin >> number_a;
   if (std::cin.fail()) {
@@ -312,7 +312,7 @@ int main() {
   std::cout << isDivisor(number_a, number_b);
 
   std::cout << "\nTask 1.10\n";
-  int result;
+  int result = 0;
   std::cout << "Enter number a: ";
   std::cin >> result;
   if (std::cin.fail()) {
@@ -387,7 +387,7 @@ int main() {
   std::cout << makeDecision(number_a, number_b);
 
   std::cout << "\nTask 2.6\n";
-  int number_c;
+  int number_c = 0;
   std::cout << "\nEnter number a: ";
   std::cin >> number_a;
   if (std::cin.fail()) {
@@ -409,7 +409,7 @@ int main() {
   std::cout << sum3(number_a, number_b, number_c);
 
   std::cout << "\nTask 2.8\n";
-  int number_x;
+  int number_x = 0;
   std::cout << "\nEnter number x: ";
   std::cin >> number_x;
   if (std::cin.fail() || number_x < 0) {
@@ -437,7 +437,7 @@ int main() {
   std::cout << reverseListNums(number_x);
 
   std::cout << "\nTask 3.4\n";
-  int number_y;
+  int number_y = 0;
   std::cout << "\nEnter a number x: ";
   std::cin >> number_x;
   if (std::cin.fail()) {
@@ -475,7 +475,7 @@ int main() {
   guessGame();
 
   std::cout << "\nTask 4.2\n";
-  int arr1[7];
+  int arr1[7] = {};
   std::cout << "Enter 7 elements of array: ";
   for (int i = 0; i < 7; i++) {
     std::cin >> arr1[i];
@@ -484,7 +484,7 @@ int main() {
       return 0;
     }
   }
-  int x;
+  int x = 0;
   std::cout << "Enter number to find: ";
   std::cin >> x;
   if (std::cin.fail()) {
@@ -495,7 +495,7 @@ int main() {
   std::cout << "Last index: " << result2 << "\n";
 
   std::cout << "\nTask 4.4\n";
-  int arr2[5];
+  int arr2[5] = {};
   std::cout << "Enter 5 elements of array: ";
   for (int i = 0; i < 5; i++) {
     std::cin >> arr2[i];
@@ -504,14 +504,14 @@ int main() {
       return 0;
     }
   }
-  int num_x;
+  int num_x = 0;
   std::cout << "Enter number to insert: ";
   std::cin >> num_x;
   if (std::cin.fail()) {
     std::cout << "Error, Enter a number only\n";
     return 0;
   }
-  int pos;
+  int pos = 0;
   std::cout << "Enter position (0-5): ";
   std::cin >> pos;
   if (std::cin.fail()) {
@@ -531,7 +531,7 @@ int main() {
   delete[] result3;
 
   std::cout << "\nTask 4.6\n";
-  int arr3[5];
+  int arr3[5] = {};
   std::cout << "Enter 5 elements of array: ";
   for (int i = 0; i < 5; i++) {
     std::cin >> arr3[i];
@@ -548,8 +548,8 @@ int main() {
   std::cout << "\n";
 
   std::cout << "\nTask 4.8\n";
-  int array1[3];
-  int array2[3];
+  int array1[3] = {};
+  int array2[3] = {};
   std::cout << "Enter 3 elements of first array: ";
   for (int i = 0; i < 3; i++) {
     std::cin >> array1[i];
@@ -575,7 +575,7 @@ int main() {
   delete[] result4;
 
   std::cout << "\nTask 4.10\n";
-  int arr[7];
+  int arr[7] = {};
   std::cout << "Enter 7 numbers: ";
   for (int i = 0; i < 7; i++) {
     std::cin >> arr[i];
